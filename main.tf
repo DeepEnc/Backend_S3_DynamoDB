@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "s3_bucket"{
-    bucket = "terraform-state-file-sunil-testing-12345"
+    bucket = "terraform-state-file-deepenc-testing-12345"
 }
 
 resource "aws_dynamodb_table" "terraform_lock" {
