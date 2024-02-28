@@ -3,7 +3,7 @@ terraform {
     bucket         = "terraform-state-file-sunil-testing-12345"   
     key            = "deepenc/terraform.tfstate"     
     region         = "us-east-1" 
-     encrypt       = true
+    encrypt        = true
     dynamodb_table = "terraform-lock"           
   }
 }
